@@ -1,0 +1,36 @@
+@media(max-width: 768px) {
+    html {
+        font-size: 100%;
+    }
+
+    .main-container .poster {
+        margin: 1rem;
+    }
+
+    .main-container .poster .image-poster,
+    .main-container .poster .content-poster {
+        min-width: 100%;
+    }
+
+    .main-container .poster .image-poster img {
+        border-top-left-radius: 1rem;
+        border-bottom-left-radius: 0;
+        border-top-right-radius: 1rem;
+    }
+
+    .main-container .poster .content-poster {
+        border-top-right-radius: 0;
+        border-bottom-left-radius: 1rem;
+    }
+}
+
+@media(max-width: 444px) {
+    html {
+        font-size: 62.5%;
+    }
+
+    .main-container .poster .content-poster .precos .preco-antigo {
+        position: initial;
+        margin: 14px;
+    }
+}

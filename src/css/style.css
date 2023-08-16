@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&display=swap');
+
+:root{
+    --primary-font-family: 'Montserrat', sans-serif;
+    --alternative-font-family: 'Fraunces', serif;
+}
+
+html{
+    font-size: 62.5%;
+}
+
+body{
+    background-color: #f3eae3;
+    font-family: var(--primary-font-family);
+    color: #6c7289;
+}
+
+.main-container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-container .poster{
+    display: flex;
+    max-width: 600px;
+    flex-wrap: wrap;
+}
+
+.main-container .poster .image-poster img{
+    max-width: 100%;
+    min-height: 100%;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+
+.main-container .poster .image-poster,
+.main-container .poster .content-poster{
+    max-width: 50%;
+    max-height: 100%;
+}
+
+.main-container .poster .content-poster{
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    padding: 3rem;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.main-container .poster .content-poster p:first-child{
+    text-transform: uppercase;
+    letter-spacing: 5.8px;
+    font-size: 1.1rem;
+    padding-bottom: 2rem;
+}
+
+.main-container .poster .content-poster h1{
+    font-family: var(--alternative-font-family);
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: #000;
+    font-weight: 900;
+    line-height: 3.5rem;
+    padding-bottom: 2rem;
+}
+
+.main-container .poster .content-poster .descricao-produto{
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    padding-bottom: 2rem;
+}
+
+.main-container .poster .content-poster .precos{
+  min-width: 100%;
+  display: flex;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.main-container .poster .content-poster .precos .preco-atual{
+    font-size: 3.2rem;
+    font-family: var(--alternative-font-family);
+    color: #3c8067;
+}
+
+.main-container .poster .content-poster .precos .preco-antigo{
+    font-size: 1.3rem;
+    text-decoration: line-through;
+    position: absolute;
+    right: 45px;
+    top: 10px;
+}
+
+.main-container .poster .content-poster .botoes {
+    min-width: 90%;
+    display: flex;
+    padding: 1.4rem 3rem;
+    background-color: #3c8067;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    font-weight: 700;
+    font-size: 1.4rem;
+    border-radius: 12px;
+    transition: all 0.250s ease-out;
+}
+
+.main-container .poster .content-poster .botoes:hover{
+    background-color: hsl(166, 45%, 19%);
+    cursor: pointer;
+}
+
+.main-container .poster .content-poster .botoes img{
+    padding-right: 1rem;
+    padding-top: 2px;
+}
