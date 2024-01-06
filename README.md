@@ -12,15 +12,11 @@ Este projeto é uma resposta ao desafio do Frontend Mentor - [Product Preview Ca
 
 - `index.html`: Arquivo HTML que contém a estrutura da página.
 - `reset.css`: Arquivo CSS que reseta os estilos padrões aplicados pelo navegador.
-- `styles.css`: Arquivo CSS que define o estilo geral da página.
+- `style.css`: Arquivo CSS que define o estilo geral da página.
 - `responsivo.css`: Arquivo CSS que define a responsividade da página.
 
-### Como Utilizar
-Faça o download ou clone este repositório.
-Abra o arquivo `index.html` em um navegador web para visualizar a lista de imagens responsiva e centralizada.
-
 ### Contribuição
-Para usar o projeto, faça um fork do repositório ou envie uma sugestão por meio de um pull request.
+Para usar o projeto, faça um fork do repositório e/ou envie uma sugestão por meio de um pull request.
 
 ### Deploy
 Veja o deploy do Projeto [aqui](https://als-samara.github.io/product-preview-card-component/).
